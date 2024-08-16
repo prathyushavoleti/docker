@@ -1,4 +1,4 @@
 FROM httpd:2.4
-COPY *.html /usr/local/apache2/htdocs/
+COPY /root/.jenkins/workspace/docker/*.html /usr/local/apache2/htdocs/
 
 
